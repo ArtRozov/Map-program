@@ -20,3 +20,7 @@
  ````
 ./run.sh
  ````
+# Как этим пользоваться
+Вот ссылка на google-disk - https://drive.google.com/drive/folders/1jvVX-aqXLqeVkE2XgC5ycru1Hcmst5zk
+
+Там рассказано, как и чем пользоваться
