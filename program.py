@@ -8,7 +8,7 @@ from PyQt5.QtCore import Qt
 class MyApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.heroes = {}  # Словарь для хранения информации о героях (имя -> [(x1, y1), (x2, y2), ...])
+        self.heroes = {}
         self.player_name_edit = None
         self.player_position_x_edit = None
         self.player_position_y_edit = None
