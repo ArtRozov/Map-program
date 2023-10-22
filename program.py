@@ -248,10 +248,7 @@ class MyApp(QMainWindow):
                 x, y, date_time = last_point[0], last_point[1], last_point[2]
 
                 rect = QGraphicsRectItem(x, y, 100, 37)
-                rect.setBrush(QColor(r, g, b))  # Красный цвет
-                b = (r/2 + g) % 255
-                g += 10
-                r -= 1
+                rect.setBrush(QColor(255, 0, 0))
                 scene.addItem(rect)
                 scene.addText(f'\"{character}\"\nX={x}, Y={y}', QFont("Arial", 10, QFont.Bold)).setPos(x + 5, y + 5)
 
